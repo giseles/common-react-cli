@@ -1,6 +1,6 @@
 {
   "name": "common-react-cli",
-  "version": "0.0.7",
+  "version": "0.0.10",
   "description": "common-react脚手架",
   "main": "index.js",
   "author": "gisele Xiong  https://github.com/giseles",
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/giseles/common-react-cli.git"
   },
   "bin": {
-    "common-react-cli": "./bin/zc"
+    "common-react-cli": "./bin/index"
   },
   "dependencies": {
     "axios": "^0.26.1",
