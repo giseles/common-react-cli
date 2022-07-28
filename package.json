@@ -1,7 +1,7 @@
 {
   "name": "common-react-cli",
   "version": "0.0.1",
-  "description": "",
+  "description": "common-react脚手架",
   "main": "index.js",
   "author": "gisele Xiong  https://github.com/giseles",
   "license": "ISC",
