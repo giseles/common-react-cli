@@ -1,12 +1,21 @@
 {
   "name": "common-react-cli",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "common-react脚手架",
   "main": "index.js",
   "author": "gisele Xiong  https://github.com/giseles",
   "license": "ISC",
+  "scripts": {
+    "exec": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giseles/common-react-cli.git"
+  },
   "bin": {
-    "x-cli": "index.js"
+    "common-react-cli": "index.js"
   },
   "dependencies": {
     "chalk": "^3.0.0",
