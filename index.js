@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 const program = require('commander'); //设计命令行
 const download = require('download-git-repo'); //github仓库下载
 const inquirer = require('inquirer'); //命令行答询
@@ -9,7 +10,7 @@ const logSymbols = require('log-symbols'); //命令行输出符号
 const fs = require('fs');
 const package = require('./package.json');
 
-const version = `x-cli cli v${package.version}`;
+const version = `common-react-cli cli v${package.version}`;
 
 const templates = {
   'v3e': {
